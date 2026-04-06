@@ -1,0 +1,53 @@
+# ── Secrets & local config ──────────────────────────────
+.env
+.env.*
+*.pem
+*.key
+secrets/
+config/local.*
+
+# ── Git & version control ────────────────────────────────
+.git
+.gitignore
+.github/
+
+# ── Python cache & virtual environments ─────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# ── Large ML / model files ───────────────────────────────
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+models/
+weights/
+checkpoints/
+
+# ── OS & editor junk ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# ── Docs & tests (not needed at runtime) ─────────────────
+docs/
+tests/
+notebooks/
+*.ipynb
+README.md
